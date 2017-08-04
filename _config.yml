@@ -3,15 +3,14 @@
 
 # Edit these fields for your project 
 
-title:            'Open Contractors'
-tagline:          'Making Sense of Government Contracting'
-description:      'An online <a href="https://github.com/opencontractors" target="_blank">open-source</a> platform for searching, analyzing and making sense of government procurement data.'
-url:              'http://open.contractors'
+title:            'GenderMeme'
+tagline:          'Understanding gender representation in the media'
+description:      'An <a href="https://github.com/poorna-kumar/gendermeme-core" target="_blank">open-source</a> tool that uses NLP to analyze the media through the lens of gender.'
+url:              'https://gendermeme.org'
 baseurl:          /
 
 author:
-  name:           'Allison McCartney'
-  url:            'https://twitter.com/anmccartney'
+  name:           'Poorna Kumar'
 
 
 # Feel free to add additional social accounts below, such as Facebook, or delete any that are
@@ -19,9 +18,7 @@ author:
 
 social:
   - type:         'github'
-    url:          'https://github.com/browninstitute'
-  - type:         'twitter'
-    url:          'https://twitter.com/opencontractors'
+    url:          'https://github.com/poorna-kumar/gendermeme-core'
 
 
 # Put your video on YouTube -- it can be an unlisted video if you don't want to share it -- 
