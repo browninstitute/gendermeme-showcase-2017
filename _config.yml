@@ -54,7 +54,7 @@ google-fonts:
 #  - dark-blue
 #  - magenta
 
-base-theme: 'blue'
+base-theme: 'dark-blue'
 
 
 # If you would like the sidebar to appear on the right side of the screen, make this field: 
