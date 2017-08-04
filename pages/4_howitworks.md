@@ -1,3 +1,9 @@
+---
+layout: page
+title: How It Works
+published: true
+---
+
 The following is an overview of the workflow of our tool, which describes how our tool works, after being given the text of an article as input:
 
 - We pass the text to Stanford CoreNLP, which has models that do common natural language processing (NLP) tasks. Specifically, CoreNLP does parsing, part-of-speech tagging, named entity recognition, coreference resolution and quote detection. It annotates our text with the outputs of these various NLP tasks, and our tool then works with these annotations.
