@@ -12,7 +12,7 @@
 
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="#">
+      <a target="_self" href="#">
         <h1>
           {{ site.title }}
         </h1>
@@ -30,7 +30,7 @@
       {% for page in site.pages %}
         {% if page.layout == "page" %}
           {% if page.title != null %}
-            <a class="sidebar-nav-item{% if page.url == page.url %} active{% endif %}" href="#{{ page.title }}">{{ page.title }}</a>
+            <a target="_self" class="sidebar-nav-item{% if page.url == page.url %} active{% endif %}" href="#{{ page.title }}">{{ page.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
